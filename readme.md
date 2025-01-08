@@ -88,11 +88,11 @@ To train the models and reproduce our results, you can directly download the dat
 
   - zero-shot dataset
 
-    ````python utils/prepare_meta_data.py -nd cosmos -n 5000 -t GO -sl bp_zeroshot.txt -s 3```
+    ```python utils/prepare_meta_data.py -nd cosmos -n 5000 -t GO -sl bp_zeroshot.txt -s 3```
 
   - few-shot dataset
 
-    ````python utils/prepare_meta_data.py -nd cosmos-n 5000 -t GO -sl bp_fewshot.txt -s 3````
+    ```python utils/prepare_meta_data.py -nd cosmos-n 5000 -t GO -sl bp_fewshot.txt -s 3```
 
 - Training example:
 
