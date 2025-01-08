@@ -1,6 +1,6 @@
 #	COSMOS
 
-[Fig1](img/img.jpg)
+[](img/img.jpg)
 
 This repository contains scripts for creating and training COSMOS models, as well as scripts for evaluating model performance.
 
