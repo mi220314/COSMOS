@@ -1,6 +1,6 @@
 #	COSMOS
 
-[Fig1](img/img.svg)
+[Fig1](img/img.png)
 
 This repository contains scripts for creating and training COSMOS models, as well as scripts for evaluating model performance.
 
@@ -42,7 +42,7 @@ pip install requirements.txt
 
 ### Checkpoint downloads
 
-Download and unzip the **[COSMOS models](https://drive.google.com/file/d/1ELQ4noOoSb00D7Ub8QYrRCgk_W-TPN0e/view?usp=drive_link, a large-scale Knowledge Graph dataset with aligned descriptions and protein sequences corresponding to GO terms and protein entities, respectively. There are two approaches to obtain the pre-training data: 1)** containing the model checkpoint.
+Download and unzip the **[COSMOS models](https://drive.google.com/file/d/1ELQ4noOoSb00D7Ub8QYrRCgk_W-TPN0e/view?usp=drive)** containing the model checkpoint.
 
 Follow these instructions to obtain predictions for your proteins. 
 
@@ -58,7 +58,7 @@ Follow these instructions to obtain predictions for your proteins.
 
 ## Data preparation
 
-We have conducted retrieval completion on the basis of [ProteinKG25](https://zjunlp.github.io/project/ProteinKG25/) and have presented our **[COSMOS dataset](https://drive.google.com/file/d/1ELQ4noOoSb00D7Ub8QYrRCgk_W-TPN0e/view?usp=drive_link, a large-scale Knowledge Graph dataset with aligned descriptions and protein sequences corresponding to GO terms and protein entities, respectively. There are two approaches to obtain the pre-training data: 1)** to download our prepared data **COSMOS**, 2) generate your own dataset.
+We have conducted retrieval completion on the basis of [ProteinKG25](https://zjunlp.github.io/project/ProteinKG25/) and have presented our **[COSMOS dataset](https://drive.google.com/drive/folders/1y-1kSvIauFFCQP5edYPWGscljZHcEfe9)** to download our prepared data, 2) generate your own dataset.
 
 For generating your own pre-training data, you need download following raw data:
 
@@ -72,7 +72,7 @@ When download these raw data, you can execute following script to generate pre-t
 python tools/gen_onto_protein_data.py
 ```
 
-1. For retrieval completion, you need to find relevant protein relations through [StringDB](https://stringdb-downloads.org/download/protein.links.v12.0.txt.gz) and [FoldSeek]([Foldseek Search Server](https://search.foldseek.com/search)), and the eligible protein relations are in the **[COSMOS dataset](https://drive.google.com/file/d/1ELQ4noOoSb00D7Ub8QYrRCgk_W-TPN0e/view?usp=drive_link, a large-scale Knowledge Graph dataset with aligned descriptions and protein sequences corresponding to GO terms and protein entities, respectively. There are two approaches to obtain the pre-training data: 1)**.
+1. For retrieval completion, you need to find relevant protein relations through [StringDB](https://stringdb-downloads.org/download/protein.links.v12.0.txt.gz) and [FoldSeek]([Foldseek Search Server](https://search.foldseek.com/search)), and the eligible protein relations are in the [COSMOS dataset](https://drive.google.com/drive/folders/1y-1kSvIauFFCQP5edYPWGscljZHcEfe9)
 
 2. For the relation above, extract the topK relation for the given protein/GO
 
@@ -82,7 +82,7 @@ python tools/gen_onto_protein_data.py
 
 To train the models and reproduce our results, you can directly download the dataset we provide or generate the dataset yourself.
 
-- Download the **COSMOS** dataset
+- Download the COSMOS dataset
 
 - generating the dataset
 
